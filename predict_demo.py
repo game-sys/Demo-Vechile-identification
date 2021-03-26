@@ -5,7 +5,7 @@ from tensorflow import keras
 
 IMG_SIZE=224
 CATEGORIES=['Toyota_corolla_2011','suzuki_alto_2007']
-path="test/Toyota_corolla_2011/1983.jpg"
+path="path of the image"
 model = keras.models.load_model('demo-mobilenet-10-0.97.hdf5')
 CATEGORIES=['Toyota_corolla_2011','suzuki_alto_2007']
 img_array = cv2.imread(path, cv2.IMREAD_GRAYSCALE)
